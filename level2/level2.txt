@@ -1,0 +1,21 @@
+What is the DOM?
+
+DOM stands for the Document Object Model, which is the HTML document.
+
+List three methods to manipulate the DOM.
+
+document.getElementById('someHTMLIdName');
+document.getElementByTagName('someHTMLTag');
+document.getElementByClassName('SomeHTMLClassName');
+
+What is an asynchronous call?
+
+Briefly explain what the sources tab in Chromes Developers Tools does.
+
+What is a JavaScript promise?
+
+What is an API?
+
+What is a JavaScript Event?
+
+What is event bubbling?
