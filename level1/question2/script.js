@@ -25,6 +25,8 @@ function loopThroughResults(todos, condition) {
 
     let filtered = todos.filter(todo => todo.completed === condition)
 
+    const string = condition ? 'Completed by' : 'Assigned to';
+
     //empty string to enter future elements
     let output = '';
 
@@ -36,7 +38,7 @@ function loopThroughResults(todos, condition) {
             <div class="card mx-2 my-2">
                 <div class="card-body">
                     <h5 class="card-title">${todo.title}</h5>
-                    <p class="card-text">Assigned to: ${todo.userId}</p>
+                    <p class="card-text">${string}: ${todo.userId}</p>
                 </div>
             </div>
         </div>
