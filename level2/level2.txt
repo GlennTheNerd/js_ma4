@@ -10,12 +10,31 @@ document.getElementByClassName('SomeHTMLClassName');
 
 What is an asynchronous call?
 
+asynchronous call is simply code that is queued in the web api's while the call stack executes
+the next line of code. When the web api has finished processing
+the line of code it sends it to the queue to then be rendered when the
+stack is empty/clear.
+
 Briefly explain what the sources tab in Chromes Developers Tools does.
+
+It shows you all the files linked to the html - giving you the possibility to 
+view your code, view where the code crashes and errors.
+
+Its also useful for testing new code or get info from your code.
 
 What is a JavaScript promise?
 
+Promise is a way to execute code asynchronously meaning; when we call a promise,
+our code doesnt wait for a response, but moves on to the next line of code.
+
 What is an API?
+API is/stands for an Application Program Interface; an API lists a bunch of operations that developers can use,
+along with a description of what they do.
 
 What is a JavaScript Event?
+Event is something that happens when you do something in the browser.
 
 What is event bubbling?
+Event bubbling simply means that the event happening to the inner element moves upwards
+through the family tree. To stop this from happening we use propergation
+to catch the event from bubbling. If thats what our intention is.
